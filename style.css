@@ -5,8 +5,9 @@ box-sizing:border-box;
 }
 div{
   display: flex;
+  flex-wrap: wrap;
   border:5px white dashed;
-justify-content: space-between;
+  justify-content: space-between;
 }
 img {
    width: 300px;
@@ -31,8 +32,6 @@ P{
 
    }
    @media screen and (max-width:800px){
-     img { width: 150px;}
+     img { width: 200px;
+     }
 }
-@media screen and (max-width:600px){
-  img { width: 100px;
-  }
